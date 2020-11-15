@@ -52,7 +52,7 @@ For users that need to keep track of a lot of information, it's easy to forget o
     [Github](https://github.com/whintzen/Express-Note-Taker)
 
   * Deployed Application: 
-    [Heroku ](https://whintzen.github.io/Employee-Directory)
+    [Heroku ](https://dry-woodland-05528.herokuapp.com/)
   
   * Express Note Taker Images
      ![NoteTaker Landing page](https://github.com/whintzen/Express-Note-Taker/blob/master/public/assets/images/Screenshot-Home.png)
@@ -61,6 +61,4 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
      ![NoteTaker Saved Note](https://github.com/whintzen/Express-Note-Taker/blob/master/public/assets/images/Screenshot-Saved-Note.png)
 
-     
-  
-  
+   
