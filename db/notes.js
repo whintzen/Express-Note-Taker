@@ -7,11 +7,8 @@ const uuidv1 = require("uuid/v1");
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
-// class Notes {
 class Notes {
-  // constructor() {
-  //   this.id = 0;
-  // }
+  
   read() {
     return readFileAsync("db/db.json", "utf8");
   }
@@ -19,21 +16,6 @@ class Notes {
   write(note) {
     return writeFileAsync("db/db.json", JSON.stringify(note));
   }
-
-  // getNotes() {
-  //   return this.read().then((notes) => {
-  //     let parsedNotes;
-
-  //     // If notes isn't an array or can't be turned into one, send back a new empty array
-  //     try {
-  //       parsedNotes = [].concat(JSON.parse(notes));
-  //     } catch (err) {
-  //       parsedNotes = [];
-  //     }
-
-  //     return parsedNotes;
-  //   });
-  // }
 
   getNotes() {
     console.log("get notes")
@@ -61,7 +43,6 @@ class Notes {
     }
 
     // Add a unique id to the note using this id
-    // const newNote = { title, text, id: ++this.id };
     const newNote = { title, text, id: uuidv1() };
 
     // Get all notes, add the new note, write all the updated notes, 
