@@ -1,3 +1,4 @@
+// This file calls all the API to get, post or delete notes
 const router = require("express").Router();
 const notes = require("../db/notes.js");
 
@@ -11,7 +12,7 @@ router.get("/notes", (req, res) => {
 
 router.post("/notes", (req, res) => {
   notes
-    .addNote(req.body)
+    .addNotes(req.body)
     .then((notes) => res.json(notes))
     .catch((err) => res.status(500).json(err));
 });
