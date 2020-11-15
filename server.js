@@ -1,3 +1,6 @@
+// This server file calls all the necessary files needed
+// to render the App
+
 const express = require("express");
 const apiRoutes = require("./routes/apiRoutes");
 const htmlRoutes = require("./routes/htmlRoutes");
