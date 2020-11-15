@@ -32,14 +32,15 @@ For users that need to keep track of a lot of information, it's easy to forget o
   * Open a browser and and type `localhost:3000` and this will open the Note Taker Application in the browser.
 
   ## How the App Works
-  * Once the App opens, it will display a list of employees and above this list is a Search box.   You can start typing the first name of the employee you would like to see information on, and as you type employees with similiar letters in their name will first appear, until the employees first name is spelt out.  Please note that you can get more than one employee with the same first name.  You may not have to spell out the full name in order to find the employee.
-  * You can also sort the file by clicking on the first Name label.  This will sort the file in ascending or decencending order.  Please note that each time you refresh the page you will get a different list of employees.    
+  * Once the App opens, it will display a `Get Started Button`.  Click on the button and it will bring you to a page where the user can enter and save their Notes. On the right side of the page where it says `Note Title`, click on that text area and start typing your first Note Title. When completed, press the tab key and it will bring you to the text area below `Note Text`.  Type a description of the Note or what the reminder is for.  
+  * Please note that a `Save` icon will appear in the upper right of the Navbar.  Click on the `Save` icon, which is a save button and the note will be saved on the Left side of the page along with a `Discard or Empty` button.  
+  * If you need to see what the Note contains, click on the Note and it will place the Note and the content back into the right side of the page
+  * If you want to delete a note, then click on the Red delete button next to the note.   
 
 
 ## Tools:
- * React
- * React-Dom
- * Axios 
+ * Node
+ * Express
  * Javascript        
  * Package json 
  * CSS
@@ -48,13 +49,17 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 ## Links:
   * Github Repository:
-    [Github](https://github.com/whintzen/Employee-Directory)
+    [Github](https://github.com/whintzen/Express-Note-Taker)
 
   * Deployed Application: 
-    [Github gh-Pages ](https://whintzen.github.io/Employee-Directory)
+    [Heroku ](https://whintzen.github.io/Employee-Directory)
   
-  * Employee Directory Images
-     ![Employee Directory](https://github.com/whintzen/Employee-Directory/blob/master/public/Screenshot.jpg)
+  * Express Note Taker Images
+     ![NoteTaker Landing page](https://github.com/whintzen/Express-Note-Taker/blob/master/public/assets/images/Screenshot-Home.png)
+
+     ![NoteTaker Entering Info](https://github.com/whintzen/Express-Note-Taker/blob/master/public/assets/images/Screenshot-EnteringInfo.png)
+
+     ![NoteTaker Saved Note](https://github.com/whintzen/Express-Note-Taker/blob/master/public/assets/images/Screenshot-Saved-Note.png)
 
      
   
